@@ -45,7 +45,7 @@ def menu():
     records = load_scores(path)
 
     while True:
-        print("\nMenu:\n1. Show Top N Scores\n2. Add New Score\n3. Exit")
+        print("\nMenu:\n1. Top N Scores\n2. Add New PLayer with score\n3. Exit")
         try:
             choice = int(input("Choose an option: "))
             if choice == 1:
