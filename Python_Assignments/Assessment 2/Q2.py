@@ -7,9 +7,7 @@ lines.
 
 
 def read_lines(filename: str) -> list[str]:
-    """
-    Reads all lines from the given file and returns them as a list of strings.
-    """
+
     try:
         with open(filename, 'r') as f:
             return f.readlines()
@@ -18,9 +16,7 @@ def read_lines(filename: str) -> list[str]:
         return []
 
 def compute_squares(nums: list[int]) -> list[int]:
-    """
-    Returns a list of squares for the given list of integers.
-    """
+
     return [n * n for n in nums]
 
 def main():
