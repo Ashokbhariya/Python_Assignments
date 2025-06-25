@@ -1,7 +1,7 @@
 import requests
 import csv
 
-API_KEY = "da7ce042"  # Replace with your working API key
+API_KEY = "da7ce042"  
 BASE_URL = "http://www.omdbapi.com/"
 
 def get_movie_titles():
